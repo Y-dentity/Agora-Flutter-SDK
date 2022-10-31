@@ -2086,4 +2086,26 @@ class RtcEngineImpl with MediaRecorderImplMixin implements RtcEngine {
       'params': jsonEncode({}),
     });
   }
+
+  @override
+  Future<void> customPublish(String role) {
+    print('DELDEL rtc_engine_impl.dart customPublish: $role');
+    return _invokeMethod('callApi', {
+      'apiType': ApiTypeEngine.kEngineCustomPublish.index,
+      'params': jsonEncode({
+        'role': role,
+      }),
+    });
+  }
+
+  @override
+  Future<void> customUnPublish(String role) {
+    print('DELDEL rtc_engine_impl.dart customUnPublish: $role');
+    return _invokeMethod('callApi', {
+      'apiType': ApiTypeEngine.kEngineCustomUnPublish.index,
+      'params': jsonEncode({
+        'role': role,
+      }),
+    });
+  }
 }
