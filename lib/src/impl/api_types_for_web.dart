@@ -172,6 +172,12 @@ enum ApiTypeEngine {
   kMediaSetExternalVideoSource,
   kMediaPushVideoFrame,
 
+  /// jjaann company custom api
+  /// 
+  /// sangyong yi <orangeday@jjaann.co.kr>
+	kEngineCustomPublish,
+  kEngineCustomUnPublish,
+
   kEngineSetAudioMixingPlaybackSpeed,
   kEngineSelectAudioTrack,
   kEngineGetAudioTrackCount,
