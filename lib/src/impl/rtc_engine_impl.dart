@@ -2091,7 +2091,7 @@ class RtcEngineImpl with MediaRecorderImplMixin implements RtcEngine {
   @override
   Future<void> customPublish(String role) {
     return _invokeMethod('callApi', {
-      'apiType': ApiTypeEngine.kEngineCustomPublish.index,
+      'apiType': ApiTypeEngine?.kEngineCustomPublish.index,
       'params': jsonEncode({
         'role': role,
       }),
@@ -2101,7 +2101,7 @@ class RtcEngineImpl with MediaRecorderImplMixin implements RtcEngine {
   @override
   Future<void> customUnPublish(String role) {
     return _invokeMethod('callApi', {
-      'apiType': ApiTypeEngine.kEngineCustomUnPublish.index,
+      'apiType': ApiTypeEngine?.kEngineCustomUnPublish.index,
       'params': jsonEncode({
         'role': role,
       }),
