@@ -175,6 +175,7 @@ enum ApiTypeEngine {
   /// jjaann company custom api
   /// 
   /// sangyong yi <orangeday@jjaann.co.kr>
+  /// note. Care must be taken to identify functions as a sequence of enums.
 	kEngineCustomPublish,
   kEngineCustomUnPublish,
 
