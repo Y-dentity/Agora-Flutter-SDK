@@ -108,13 +108,13 @@ class AgoraRtcEngineWeb {
 
     var elementDeepArBin1 = ScriptElement()
       ..src =
-          'assets/packages/agora_rtc_engine/assets/9eaadaeb638047c7e764.js'
+          'assets/packages/agora_rtc_engine/assets/9eaadaeb638047c7e764.bin'
       ..type = 'application/javascript';
     document.body!.append(elementDeepArBin1);
 
     var elementDeepArBin2 = ScriptElement()
       ..src =
-          'assets/packages/agora_rtc_engine/assets/a7965ae4891554079e7c.js'
+          'assets/packages/agora_rtc_engine/assets/a7965ae4891554079e7c.bin'
       ..type = 'application/javascript';
     document.body!.append(elementDeepArBin2);
 
