@@ -105,6 +105,24 @@ class AgoraRtcEngineWeb {
       pluginInstance._engineSub = _IrisRtcEngine();
     });
     document.body!.append(element);
+
+    var elementDeepArBin1 = ScriptElement()
+      ..src =
+          'assets/packages/agora_rtc_engine/assets/9eaadaeb638047c7e764.js'
+      ..type = 'application/javascript';
+    document.body!.append(elementDeepArBin1);
+
+    var elementDeepArBin2 = ScriptElement()
+      ..src =
+          'assets/packages/agora_rtc_engine/assets/a7965ae4891554079e7c.js'
+      ..type = 'application/javascript';
+    document.body!.append(elementDeepArBin2);
+
+    var elementDeepArWasm = ScriptElement()
+      ..src =
+          'assets/packages/agora_rtc_engine/assets/fec893c34598335dd4d4.wasm'
+      ..type = 'application/javascript';
+    document.body!.append(elementDeepArWasm);
   }
 
   final _controllerEngine = StreamController();
