@@ -40,3 +40,6 @@ flutter:
         pluginClass: AgoraRtcEngineWeb
   assets:
     - assets/AgoraRtcWrapper.bundle.custom.js
+    - assets/9eaadaeb638047c7e764.bin
+    - assets/a7965ae4891554079e7c.bin
+    - assets/fec893c34598335dd4d4.wasm
